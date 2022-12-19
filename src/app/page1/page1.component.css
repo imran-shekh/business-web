@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(221, 234, 241);
+}
+
+.logo {
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.box .welcome {
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: -30px;
+}
+
+.box container user name {
+    padding: 12px;
+    margin: 12px;
+}
+
+.name {
+    width: 26rem;
+    padding: 8px;
+    margin: 1rem;
+    border-radius: 8px;
+}
+
+
+.password {
+    width: 26rem;
+    padding: 8px;
+    margin: 1rem;
+    border-radius: 8px;
+}
+
+.box {
+    height: 25rem;
+    width: 34rem;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 29rem;
+    border-radius: 8px;
+}
+
+.upper {
+    padding: 50px;
+}
+
+.para {
+    color: rgb(157, 157, 157);
+    font-size: 16px;
+}
+
+.welcome {
+    text-align: center;
+    margin-top: -5rem;
+}
+
+.forgot {
+    margin-left: 37rem;
+    margin-top: 2rem;
+}
+
+/* 
+heading container user {
+
+    margin-left: -18rem;
+    margin-top: 4rem; */
+/* } */
+
+.button {
+    background-color: rgb(58, 58, 228);
+    border: none;
+    color: white;
+    padding: 5px 200px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: 20px;
+    border-radius: 8px;
+    height: 35px;
+    margin-left: 1rem;
+}
+
+.forgot {
+    color: grey;
+}
