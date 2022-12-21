@@ -9,8 +9,11 @@
   <div class="container">
     <form (submit)="btnClick($event)">
       <div class="user">
-        <div><input class="name" name="firstName" type="email" placeholder="Enter your email"></div>
-        <div><input class="password" type="password" placeholder="Enter your password"></div>
+        <div class="input-container-email">
+          <img class="email-icon" src="/assets/images/email.png" alt="email-icon"/>
+          <input class="name" name="firstName" type="email" placeholder="Enter your email"></div>
+        <div>
+          <input class="password" type="password" placeholder="Enter your password"></div>
       </div>
       <button class="button">Sign In</button>
     </form>

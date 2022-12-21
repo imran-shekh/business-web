@@ -25,8 +25,19 @@ body {
     padding: 8px;
     margin: 1rem;
     border-radius: 8px;
+    padding-left: 1rem;
 }
 
+.input-container-email {
+    position: relative;
+}
+
+.email-icon {
+    position: absolute;
+    width: 1.2rem;
+    left: -10.6px;
+    top: 1.45rem;
+}
 
 .password {
     width: 26rem;
