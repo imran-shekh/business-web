@@ -7,16 +7,20 @@
     <p class="para">Enter your credentials to access your account</p>
 </div>
   <div class="container">
-    <form (submit)="btnClick($event)">
+    <form #user="ngForm" (submit)="btnClick($event)">
       <div class="user">
         <div class="input-container-email">
           <img class="email-icon" src="/assets/images/email.png" alt="email-icon"/>
-          <input class="name" name="firstName" type="email" placeholder="Enter your email"></div>
+          <input required type="email" class="name" name="firstName" placeholder="Enter your email" ngModel>
+        <span *ngIf="errorMessage" class="span1" style="color: red;">{{errorMessage}}</span>
+        </div>
         <div class="password-container">
           <img class="lock-icon" src="/assets/images/lock.png" alt="error">
-          <input class="password" type="password" placeholder="Enter your password"></div>
+          <input required class="password" name="pass" type="password" placeholder="Enter your password" ngModel>
+        <span *ngIf="errorMessage2" style="color: red;" class="span2" >{{errorMessage2}}</span>
+        </div>
       </div>
-      <button class="button">Sign In</button>
+      <button type="submit" class="button">Sign In</button>
     </form>
   </div>
 </div>

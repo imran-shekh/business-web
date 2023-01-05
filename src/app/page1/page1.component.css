@@ -2,17 +2,26 @@ body {
     background-color: rgb(221, 234, 241);
 }
 
+.box {
+    padding: 2rem;
+}
+
 .logo {
     height: 6rem;
     display: flex;
     justify-content: center;
     margin-top: 5rem;
+    padding-left: 5rem;
+}
+
+.container {
+    margin: 2rem;
 }
 
 .box .welcome {
     font-weight: bold;
     font-size: 25px;
-    margin-top: -30px;
+    margin-top: 20px
 }
 
 .box container user name {
@@ -23,7 +32,9 @@ body {
 .name {
     width: 26rem;
     padding: 8px;
-    margin: 1rem;
+    margin: 1.5rem;
+    margin-bottom: 4px;
+    /* margin-top:-10; */
     border-radius: 8px;
     padding-left: 3rem;
 }
@@ -32,18 +43,27 @@ body {
     position: relative;
 }
 
+.span1 {
+    padding-left: 3rem;
+}
+
+.span2 {
+    padding-left: 3rem;
+}
+
 .email-icon {
     position: absolute;
     width: 27px;
-    left: 26.4px;
-    top: 21px;
+    left: 33px;
+    top: 29px;
 }
 
 .password {
     width: 26rem;
     padding: 8px;
     padding-left: 2rem;
-    margin: 1rem;
+    margin: 1.5rem;
+    margin-bottom: 2PX;
     border-radius: 8px;
     padding-left: 3rem;
 }
@@ -55,11 +75,9 @@ body {
 .lock-icon {
     position: absolute;
     width: 25px;
-    left: 23px;
-    top: 21px;
-    padding-left: 4px;
+    left: 31px;
+    top: 29px;
 }
-
 
 .box {
     height: 25rem;
@@ -75,6 +93,7 @@ body {
 
 .upper {
     padding: 50px;
+    padding-bottom: 1rem;
 }
 
 .para {
@@ -88,8 +107,9 @@ body {
 }
 
 .forgot {
-    margin-left: 37rem;
-    margin-top: 2rem;
+    margin-left: 41rem;
+    margin-top: 1rem;
+    color: grey;
 }
 
 /* 
@@ -107,12 +127,8 @@ heading container user {
     text-align: center;
     text-decoration: none;
     font-size: 14px;
-    margin-top: 19px;
+    margin-top: 25px;
     border-radius: 8px;
     height: 36px;
-    margin-left: 1rem;
-}
-
-.forgot {
-    color: grey;
+    margin-left: 1.5rem;
 }

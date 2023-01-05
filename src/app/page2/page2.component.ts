@@ -21,4 +21,7 @@ export class Page2Component {
 this.firstName = this.router.queryParams.value.user;
 console.log(this.firstName)
   }
+  formData(data:any){
+    console.log(data)
+  }
 }
