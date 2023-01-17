@@ -1,27 +1,42 @@
-body {
-    background-color: rgb(221, 234, 241);
-}
 
-.box {
-    padding: 2rem;
+
+
+/* .box {
+    height: 26rem;
+    width: 35rem;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 29rem;
+    border-radius: 8px;
 }
 
 .logo {
     height: 6rem;
-    display: flex;
-    justify-content: center;
-    margin-top: 5rem;
-    padding-left: 5rem;
+    width: 5rem;
+    margin-top: 7rem;
+    padding-left: 21rem;
 }
 
-.container {
+.image {
+    height: 6rem;
+    width: 5rem;
+    margin-top: 6rem;
+    padding-left: 4rem;
+
+}
+
+/* .container {
     margin: 2rem;
-}
+} */
 
-.box .welcome {
+/* .welcome {
     font-weight: bold;
     font-size: 25px;
-    margin-top: 20px
+    margin-top: 20px;
+    padding-left: 4rem;
 }
 
 .box container user name {
@@ -30,16 +45,30 @@ body {
 }
 
 .name {
-    width: 26rem;
+    width: 30rem;
     padding: 8px;
     margin: 1.5rem;
     margin-bottom: 4px;
-    /* margin-top:-10; */
+    margin-top: -10;
     border-radius: 8px;
     padding-left: 3rem;
 }
 
 .input-container-email {
+    position: relative;
+}
+
+.password {
+    width: 30rem;
+    padding: 8px;
+    padding-left: 5rem;
+    margin: 1.5rem;
+    margin-bottom: 4PX;
+    border-radius: 8px;
+    padding-left: 3rem;
+}
+
+.password-container {
     position: relative;
 }
 
@@ -54,46 +83,31 @@ body {
 .email-icon {
     position: absolute;
     width: 27px;
-    left: 33px;
+    left: 2rem;
     top: 29px;
 }
 
-.password {
-    width: 26rem;
-    padding: 8px;
-    padding-left: 2rem;
-    margin: 1.5rem;
-    margin-bottom: 2PX;
-    border-radius: 8px;
-    padding-left: 3rem;
-}
-
-.password-container {
-    position: relative;
-}
 
 .lock-icon {
     position: absolute;
-    width: 25px;
-    left: 31px;
-    top: 29px;
+    width: 27px;
+    left: 2rem;
+    top: 28px;
 }
 
 .box {
-    height: 25rem;
-    width: 34rem;
+    height: 30rem;
+    width: 37rem;
     background: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-left: 29rem;
     border-radius: 8px;
+    display: block;
+    margin: auto;
 }
 
 .upper {
     padding: 50px;
     padding-bottom: 1rem;
+    margin-left: 7rem;
 }
 
 .para {
@@ -107,23 +121,22 @@ body {
 }
 
 .forgot {
-    margin-left: 41rem;
-    margin-top: 1rem;
-    color: grey;
+    color: rgb(104, 104, 104);
+    text-align: center;
 }
 
-/* 
+
 heading container user {
 
     margin-left: -18rem;
-    margin-top: 4rem; */
-/* } */
+    margin-top: 4rem;
+}
 
 .button {
     background-color: rgb(58, 58, 228);
     border: none;
     color: white;
-    padding: 5px 217px;
+    padding: 5px 250px;
     text-align: center;
     text-decoration: none;
     font-size: 14px;
@@ -132,3 +145,95 @@ heading container user {
     height: 36px;
     margin-left: 1.5rem;
 }
+
+@media (max-width: 600px) {
+    .upper {
+        padding-bottom: 1rem;
+    }
+
+    .para {
+        font-size: 11px;
+        margin-top: 1rem;
+        padding-left: 15px;
+    }
+
+    .image {
+        height: 3rem;
+        width: 2rem;
+        padding-bottom: 3rem;
+        margin-right: 2rem;
+    }
+
+    /* .box {
+        height: 22rem;
+        width: 21rem;
+        background: white;
+        display: block;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-left: 1rem;
+        border-radius: 8px;
+    } */
+
+/* .welcome {
+        font-weight: bold;
+        font-size: 19px;
+        margin-top: 4rem;
+        padding-left: 60px
+    }
+
+    .name {
+        width: 260px;
+        padding: 5px;
+        margin: 1rem;
+        margin-bottom: 1px;
+        margin-top: -10;
+        border-radius: 8px;
+        padding-left: 38px;
+    }
+
+    .password {
+        width: 260px;
+        padding: 5px;
+        margin: 1rem;
+        margin-bottom: 1px;
+        margin-top: -10;
+        border-radius: 8px;
+        padding-left: 38px;
+    }
+
+    .email-icon {
+        width: 20px;
+        left: 25px;
+        top: 20px;
+    }
+
+    .lock-icon {
+        width: 20px;
+        left: 22px;
+        top: 20px;
+    }
+
+    .button {
+        width: 306px;
+        padding: 7px;
+        font-size: 13px;
+        height: 30px;
+        margin-top: 12px;
+        margin-left: 16px;
+        border-radius: 8px;
+    }
+
+    .forgot {
+        font-size: 14px;
+    }
+
+    .span1 {
+        font-size: 13px;
+    }
+
+    .span2 {
+        font-size: 13px;
+    }
+ */

@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-import {FormGroup, FormControl, Validators} from '@angular/forms'
+// import {FormGroup, FormControl, Validators} from '@angular/forms'
 // import { endWith } from 'rxjs';
 
 
@@ -12,10 +12,10 @@ import {FormGroup, FormControl, Validators} from '@angular/forms'
 })
 export class Page1Component {
 
-  loginForm = new FormGroup({
-    user: new FormControl('', [Validators.required, Validators.email]),
-    password: new FormControl('')
-  })
+  // loginForm = new FormGroup({
+  //   user: new FormControl('', [Validators.required, Validators.email]),
+  //   password: new FormControl('')
+  // })
 
   constructor(private router: Router){}
   // This is intialization - GLOBAL
